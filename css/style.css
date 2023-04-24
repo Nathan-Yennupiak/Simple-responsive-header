@@ -12,7 +12,7 @@
 :root {
     --bg-color: #222327;
     --text-color: #fff;
-    --main-color: #6747c7;
+    --main-color: gold;
 }
 
 body {
@@ -44,12 +44,12 @@ header {
 .logo i {
     color: var(--main-color);
     font-size: 28px;
-    margin-right: 3px;
+    margin-right: 5px;
 }
 
 .logo span {
     color: var(--text-color);
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
@@ -145,13 +145,14 @@ header {
         align-items: start;
         padding: 30px 0;
     }
-
     .navbar a {
         display: block;
         margin: 5px 0;
         padding: 0px 25px;
         transition: all 0.5s ease;
     }
+
+    
 
     .navbar a:hover {
         color: var(--bg-color);
